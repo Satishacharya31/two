@@ -14,6 +14,9 @@ export const metadata: Metadata = {
   description: 'Create and share beautiful multimedia stories of your life moments',
 };
 
+// This enables dynamic rendering for the entire app since we're using authentication
+export const dynamic = 'force-dynamic';
+
 export default async function RootLayout({
   children,
 }: {
